@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="frame-src youtube.com www.youtube.com">
+    <meta name="description" content="A personal portfolio website showcasing my work, skills, and contact information.">
+    <meta name="keywords" content="portfolio, web development, projects, contact">
+    <title>MyPortfolio</title>
+    <link rel="stylesheet" href="styles2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    
+    <header class="header">
+        <h1>
+            Welcome to My Portfolio
+            <br>
+        <h2>
+            A showcase of my work and skills
+        </h1>
+
+        <!--NavBar Section-->
+    
+        <nav class="nav">
+            <a href="#home">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#work">WORK</a>
+            <a href="#resume">RESUME</a>
+            <a href="#contact">CONTACT</a>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    
+    <section class="section">
+        <div id="home">
+            <h2>Home</h2>
+            <p>Welcome to my portfolio website. Here you can find information about my journey, skills, and how to contact me. Still an early beta website but can't wait to renovate it every time i learn somthing new.</p>
+        </div>
+        <div id="about" >
+            <h2>About Me</h2>
+            <p>I am a junior developer with a love for gaming and motorsports world. My journey has been exciting, and I am always eager to learn and achieve more .</p>
+                <iframe width="560" height="315" 
+                    src="https://www.youtube.com/embed/k3t6V_oY-9Q?si=idoxSZeJuKhu5eFL" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" 
+                    allowfullscreen>
+                </iframe>
+        </div>
+        <div id="work">
+            <h2>My Work</h2>
+            <p>For now im a part time graphic designer and a bit of a junior web developer at a privet company and i'm learning every day to develop myself and upgrade my skills</p>
+        </div>
+        <div id="resume">
+            <h2>Resume</h2>
+            <p>You can view my resume to see my professional experience, education, and skills in detail SOON.</p>
+        </div>
+        <form id="contact">
+            <h2>Contact Me</h2>
+            <p>Feel free to reach out to me via email or connect with me on social media. You can find my links at the buttom of the page.</p>
+            <input type="text" placeholder="Your Name" style="padding: 10px; margin: 5px;">
+            <input type="email" placeholder="Your Email" style="padding: 10px; margin: 5px;">
+            <textarea placeholder="Your Message" style="padding: 10px; margin: 5px;"></textarea>
+            <button id="btn" type="submit" style="padding: 10px; background-color: #6B6054; color: #D5ECD4;">Send Message</button>
+        </form>
+    </section>
+    <footer>
+        <div class="footer">
+            <p>&copy; 2023 MyPortfolio. All rights reserved.</p>
+            <p>Follow me on 
+                <a href="https://www.facebook.com/boubakri.waskn" target="_blank; style="color: #D5ECD4;">Facebook</a>, 
+                <a href="https://www.linkedin.com/in/mazen-boubakri-997613363/" target="_blank; style="color: #D5ECD4;">LinkedIn</a>, 
+                <a href="https://github.com/MazenBoubakri" target="_blank; style="color: #D5ECD4;">GitHub</a>
+            </p>
+        </div>
+    </footer>
+    
+</body>
+</html>

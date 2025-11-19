@@ -1,0 +1,77 @@
+body {
+    background-color: #A1B0AB;
+}
+
+.header {
+    background-color: #929487;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Bitcount Grid Double', sans-serif;
+    color: #C3DAC3;
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+}
+h2 {
+    font-family: 'Bitcount Grid Double', sans-serif;
+    color: #6B6054;
+    font-size: 25px;
+    margin-top: 4px;
+    margin-bottom: 10px;
+}
+
+a {
+    font-family: 'Bitcount Grid Double', sans-serif;
+    color: #D5ECD4;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    color: #6B6054;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.nav {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+section {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: #E3E4DB;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #929487;
+    color: #C3DAC3;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    bottom: 0;
+    opacity: 0.4;
+}
+
+button {
+    background-color: #6B6054;
+    color: #D5ECD4;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
